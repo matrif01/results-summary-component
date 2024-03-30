@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>results-summary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex justify-center items-center h-screen">
+    
+    <div class=" border-2 rounded-lg m-20 flex flex-col gap-4 md:flex-row">
+      <div class="grid  place-items-center bg-indigo-600  py-[8px]   p-[20px] rounded-b-lg md:rounded-lg ">
+        <div class="text-slate-400 p-2">Your Result</div>
+        <div class="w-20 h-20 rounded-full bg-indigo-700 flex flex-col justify-center items-center">
+          <p class="text-4xl text-white">
+            76
+            <p class="text-slate-400 text-sm">of 100</p>
+          </p>
+        </div> 
+
+        <div class="text-white text-2xl">Great</div>
+        <p class="text-sm text-slate-300 pb-4">
+          You scored higher than 65% of <br /> 
+          the people who have taken <br>these
+          tests.
+        </p>
+      </div>
+      
+      <div class="p-[8px] md:py-[18px]">
+      <h3 class="text-black text-2xl font-bold mb-5">Summary</h3>
+      <ul class="mb-5">
+        <li class="mb-2 px-2 py-2 font-bold bg-red-100 rounded-lg flex justify-between">
+            <div class="flex items-center gap-3">
+              <img src="./icons/icon-reaction.svg"><span class="text-red-400">Reaction</span>
+            </div>
+            <div class="flex items-center gap-2">
+              80<p class="text-slate-400">/ 100</p>
+            </div>
+        </li>
+        <li class="mb-2 px-2 py-2  font-bold bg-orange-100 rounded-lg flex justify-between">
+            <div class="flex items-center gap-3">
+              <img src="./icons/icon-memory.svg" ><span class="text-orange-300">Memory</span>
+            </div>
+            <div class="flex items-center gap-2">
+              92<p class="text-slate-400">/ 100</p>
+            </div>
+        </li>
+        <li class="mb-2 px-2 py-2 font-bold bg-green-100 rounded-lg flex justify-between">
+            <div class="flex items-center gap-3">
+              <img src="./icons/icon-verbal.svg"><span class="text-green-500">Verbal</span>
+            </div>
+            <div class="flex items-center gap-2">
+              61<p class="text-slate-400">/100</p>
+            </div>
+        </li>
+        <li class="mb-2 px-2 py-2  font-bold bg-blue-100 rounded-lg flex justify-between">
+            <div class="flex items-center gap-3">
+              <img src="./icons/icon-visual.svg"><span class="text-blue-700">Visual</span>
+            </div>
+            <div class="flex items-center gap-2">
+              72<p class="text-slate-400">/100</p>
+            </div>
+        </li>
+      </ul>
+      <button class=" text-white px-20 py-2 bg-blue-950 rounded-full hover:bg-indigo-600">Continue</button>
+    </div>
+    </div>    
+  </body>
+</html> 
+ 
